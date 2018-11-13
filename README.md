@@ -1,3 +1,8 @@
+Prerequests
+===
+cmake, ctag, cscope
+
+
 Install
 ===
 
@@ -11,9 +16,9 @@ cd .vim
 
 git clone https://github.com/chenzhihui244/vim-ide.git
 
-vim+PlugInstall
-
 ln -s ~/.vim/vim-ide/vimrc ~/.vimrc
+
+vim+PlugInstall
 
 ln -s ~/.vim/plugged/molokai/colors/molokai.vim ~/.vim/colors/
 
