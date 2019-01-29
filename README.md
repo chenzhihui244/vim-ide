@@ -12,6 +12,9 @@ mkdir .vim
 
 mkdir .vim/colors
 
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    
 cd .vim
 
 git clone https://github.com/chenzhihui244/vim-ide.git
