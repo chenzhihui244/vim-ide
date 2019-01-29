@@ -1,6 +1,6 @@
 Prerequests
 ===
-cmake, ctag, cscope
+cmake, ctag, cscope python-dev
 
 
 Install
