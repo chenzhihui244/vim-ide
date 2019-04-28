@@ -32,8 +32,11 @@ python install.py --clang-completer
 
 tmux
 ===
+
 git clone https://github.com/chenzhihui244/tmux.git
+
 ln -s /home/chenzhihui/tmux/tmux.conf ~/.tmux.conf
+
 ln -s /home/chenzhihui/tmux/tmux-statusline.conf ~/.tmux-statusline.conf
 
 
