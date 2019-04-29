@@ -1,25 +1,23 @@
 Prerequests
 ===
-cmake, ctag, cscope python-dev
-
+cmake, ctag, cscope, python-dev, git, gcc, gcc-c++
 
 Install
 ===
 
-cd ~
+topdir=`cd ~; pwd`
 
-mkdir .vim
-
-mkdir .vim/colors
-
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    
-cd .vim
+cd $topdir
 
 git clone https://github.com/chenzhihui244/vim-ide.git
 
-ln -s ~/.vim/vim-ide/vimrc ~/.vimrc
+ln -s $topdir/vim-ide/vim ~/.vim
+
+ln -s ~/.vim/vimrc ~/.vimrc
+
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+mkdir .vim/colors
 
 vim+PlugInstall
 
@@ -29,24 +27,19 @@ cd ~/.vim/plugged/YouCompleteMe
 
 python install.py --clang-completer
 
-
 tmux
 ===
 
-git clone https://github.com/chenzhihui244/tmux.git
+ln -s $topdir/vim-ide/tmux/tmux.conf ~/.tmux.conf
 
-ln -s /home/chenzhihui/tmux/tmux.conf ~/.tmux.conf
-
-ln -s /home/chenzhihui/tmux/tmux-statusline.conf ~/.tmux-statusline.conf
-
+ln -s $topdir/vim-ide/tmux/tmux-statusline.conf ~/.tmux-statusline.conf
 
 term
 ===
 
 Add the following into .bashrc:
 
-export TERM="xterm-256color"
-
+echo 'export TERM="xterm-256color"' >> ~/.bashrc
 
 Install powerline fonts
 ===

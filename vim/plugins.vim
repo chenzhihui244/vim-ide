@@ -6,13 +6,13 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-so $HOME/.vim/vim-ide/plug-colorscheme.vim
-so $HOME/.vim/vim-ide/plug-minibufexpl.vim
-so $HOME/.vim/vim-ide/plug-nerdtree.vim
-so $HOME/.vim/vim-ide/plug-airline.vim
-so $HOME/.vim/vim-ide/plug-grepper.vim
-so $HOME/.vim/vim-ide/plug-ycm.vim
-so $HOME/.vim/vim-ide/plug-whitespace.vim
-so $HOME/.vim/vim-ide/plug-taglist.vim
+:runtime plug-colorscheme.vim
+:runtime plug-minibufexpl.vim
+:runtime plug-nerdtree.vim
+:runtime plug-airline.vim
+:runtime plug-grepper.vim
+:runtime plug-ycm.vim
+:runtime plug-whitespace.vim
+:runtime plug-taglist.vim
 
 call plug#end()
