@@ -1,4 +1,4 @@
-Plug 'rdnetto/YCM-Generator'
+Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 Plug 'Valloric/YouCompleteMe'
 
 set completeopt=longest,menu
