@@ -5,7 +5,7 @@ cmake, ctag, cscope, python-dev, git, gcc, gcc-c++
 Install
 ===
 
-topdir=`cd ~; pwd`
+topdir=`pwd`
 
 cd $topdir
 
@@ -17,7 +17,7 @@ ln -s ~/.vim/vimrc ~/.vimrc
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-mkdir .vim/colors
+mkdir ~/.vim/colors
 
 vim+PlugInstall
 
