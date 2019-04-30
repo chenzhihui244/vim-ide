@@ -1,6 +1,6 @@
 Prerequests
 ===
-cmake, ctag, cscope, python-dev, git, gcc, gcc-c++
+cmake, ctag, cscope, python-dev, git, gcc, gcc-c++, vim, tmux
 
 Install
 ===
@@ -19,7 +19,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 
 mkdir ~/.vim/colors
 
-vim+PlugInstall
+vim +PlugInstall
 
 ln -s ~/.vim/plugged/molokai/colors/molokai.vim ~/.vim/colors/
 
