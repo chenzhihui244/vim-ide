@@ -25,7 +25,7 @@ ln -s ~/.vim/plugged/molokai/colors/molokai.vim ~/.vim/colors/
 
 cd ~/.vim/plugged/YouCompleteMe
 
-python install.py --clang-completer
+python install.py --clangd-completer
 
 tmux
 ===
