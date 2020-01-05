@@ -1,6 +1,6 @@
 Prerequests
 ===
-cmake, ctag, cscope, python-dev, git, gcc, gcc-c++, vim, tmux
+cmake, ctag, cscope, python-dev, git, gcc, gcc-c++, vim, tmux, build-essential
 
 Install
 ===

@@ -7,6 +7,7 @@ endif
 call plug#begin('~/.vim/plugged')
 
 :runtime plug-colorscheme.vim
+:runtime plug-a.vim
 :runtime plug-minibufexpl.vim
 :runtime plug-nerdtree.vim
 :runtime plug-airline.vim

@@ -66,7 +66,7 @@ set ruler
 
 " Show line number
 set number
-set relativenumber
+"set relativenumber
 
 " display incomplete commands
 set showcmd
@@ -84,13 +84,13 @@ set backspace=indent,eol,start
 set whichwrap+=<,>,h,l
 
 " expand tab with spaces
-set expandtab
-"set noexpandtab
+"set expandtab
+set noexpandtab
 
 " 1 tab == 4 spaces
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+"set tabstop=4
+"set shiftwidth=4
+"set softtabstop=4
 
 " Linebreak on 500 characters
 set lbr
