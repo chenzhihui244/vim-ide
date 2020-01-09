@@ -15,5 +15,10 @@ call plug#begin('~/.vim/plugged')
 :runtime plug-ycm.vim
 :runtime plug-whitespace.vim
 :runtime plug-taglist.vim
+:runtime plug-ultisnips.vim
+:runtime plug-auto-pairs.vim
+:runtime plug-git.vim
+:runtime plug-ctrlsf.vim
+:runtime plug-autoformat.vim
 
 call plug#end()
