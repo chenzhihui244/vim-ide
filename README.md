@@ -16,6 +16,8 @@ ln -s $topdir/vim-ide/vim ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+or
+curl -k -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 mkdir ~/.vim/colors
 
@@ -47,3 +49,9 @@ Install powerline fonts
 git clone https://github.com/powerline/fonts.git
 
 cd fonts && ./install.sh
+
+disable the ssl verification
+===
+git config --global http.sslVerify false
+
+
